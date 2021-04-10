@@ -1,0 +1,9 @@
+.wrapper-page {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 900px;
+    max-height: 100%;
+    max-width: 950px;
+    margin-left: 130px;
+    }
