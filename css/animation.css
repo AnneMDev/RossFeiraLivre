@@ -2,7 +2,7 @@
     transform: scale(1.1);
 }
 .time {
-    background-image: url(/FutLovers/img/transparent-polaroid-frame-5f88d02ad2a191.png);
+    background-image: url('/FutLovers/img/transparent-polaroid-frame-5f88d02ad2a191.png');
     background-size: 127px 130px;
     background-position: bottom;
     color: #fff;
