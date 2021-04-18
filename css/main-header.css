@@ -5,15 +5,6 @@
     font-family: 'Orbitron', sans-serif;
 }
 
-/* global */
-.container {
-    width: 80%;
-    margin: auto;
-    box-sizing: border-box;
-    overflow: hidden;
-    align-items: center;
-
-}
 .navigation {
     float: right;
 }

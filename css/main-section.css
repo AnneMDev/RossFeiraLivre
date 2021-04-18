@@ -1,0 +1,12 @@
+.main-section {
+    margin-top: 100px;
+    align-items: center;
+    text-align: center;
+}
+
+.main-section .alert {
+    border: 5px solid #ffffff;
+    box-sizing: border-box;
+    float: left;
+    margin-top: 30px;
+}
