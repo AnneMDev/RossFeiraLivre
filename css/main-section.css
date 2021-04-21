@@ -8,5 +8,6 @@
     border: 5px solid #ffffff;
     box-sizing: border-box;
     float: left;
-    margin-top: 30px;
+    height: 235px;
+    width: 22%;
 }

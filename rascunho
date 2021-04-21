@@ -1,0 +1,27 @@
+
+
+No html começa logo abaixo do aside ou dentro da section.
+
+<div class="main-carousel">
+            <button class="button-arrow -left"><span class="content">Avançar</span></button>
+            <div id="items" class="items">
+                <div class="elements">
+                    <div class="node-card">
+                        <img class="img-banner" src="./Assets/placa-de-preco-em-branco-com-corredor-de-supermercado_293060-1071.jpg" alt="">
+                    </div>
+                    <div class="node-card">
+                        <img class="img-banner" src="./Assets/placa-de-preco-em-branco-com-corredor-de-supermercado_293060-1071.jpg" alt="">
+                    </div>
+                    <div class="node-card">
+                        <img class="img-banner" src="./Assets/placa-de-preco-em-branco-com-corredor-de-supermercado_293060-1071.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <button class="button-arrow -right"><span class="content">Voltar</span></button> 
+         </div>
+
+
+         css => carrousel
+
+         js => node-card
+
