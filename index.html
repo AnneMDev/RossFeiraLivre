@@ -9,11 +9,9 @@
     <title>Relatório de vendas | Home </title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Orbitron:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/reset.css  ">
-    <link rel="stylesheet" href="./css/main-header.css">
-    <link rel="stylesheet" href="./css/container.css">
-    <link rel="stylesheet" href="./css/title.css">
-    <link rel="stylesheet" href="./css/main-section.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main-css.css">
+</head>
 <body>
     <header class="main-header">
         <div class="container">
@@ -53,14 +51,44 @@
         </figure>
     </div>
     <section class="main-section">
-        <div class="container">
-            <h1 class="title -one">Ofertas:</h1>
-            <figure>
-                <img class="alert" src="./Assets/gif-sirene.gif" alt="">
-                <figcaption><h2 class="title -two">Por tempo limitado</h2></figcaption>
-            </figure>
+        <h1 class="title">Nossas melhores ofertas:</h1>
+        <div class="img-slider">
+            <div class="slide active">
+                <img src="./Assets/placa-de-preco-em-branco-com-corredor-de-supermercado_293060-1071.jpg" alt="">
+                <div class="info">
+                    <h2>Oferta1</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, magni corrupti minus, nulla ipsum ullam laboriosam nihil quod, vel corporis neque iure quo? Maxime, dolores molestias? Blanditiis, libero? Nam, dolorum?</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="./Assets/placa-de-preco-em-branco-com-corredor-de-supermercado_293060-1071.jpg" alt="">
+                <div class="info">
+                    <h2>Oferta2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, magni corrupti minus, nulla ipsum ullam laboriosam nihil quod, vel corporis neque iure quo? Maxime, dolores molestias? Blanditiis, libero? Nam, dolorum?</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="./Assets/placa-de-preco-em-branco-com-corredor-de-supermercado_293060-1071.jpg" alt="">
+                <div class="info">
+                    <h2>Oferta3</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, magni corrupti minus, nulla ipsum ullam laboriosam nihil quod, vel corporis neque iure quo? Maxime, dolores molestias? Blanditiis, libero? Nam, dolorum?</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="./Assets/placa-de-preco-em-branco-com-corredor-de-supermercado_293060-1071.jpg" alt="">
+                <div class="info">
+                    <h2>Oferta4</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, magni corrupti minus, nulla ipsum ullam laboriosam nihil quod, vel corporis neque iure quo? Maxime, dolores molestias? Blanditiis, libero? Nam, dolorum?</p>
+                </div>
+            </div>
+            <div class="navigation">
+                <div class="btn active"></div>
+                <div class="btn"></div>
+                <div class="btn"></div>
+                <div class="btn"></div>
+            </div>
         </div>
     </section>
-    <script src="/script.js"></script>
+    <script src="./js/banner-auto.js"></script>
 </body>
 </html>
