@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 @import url('main-header.css');
 @import url('container.css');
 @import url('title.css');
