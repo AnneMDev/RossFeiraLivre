@@ -1,0 +1,125 @@
+.register {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}  
+.register .title{
+    display: flex;
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.register-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-wrapper {
+    width: 100%;
+    max-width: 800px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    line-height: 40px;
+    background: none;
+    border: solid 2px black;
+    box-shadow: #2d2d2d 10px 10px 6px;
+    font-size: 29px;
+    color: #fff;
+    margin-top: 20px;
+}
+.form-wrapper input, .form-select {
+    height: 30px;
+    width: 100%;
+    background-color: white;
+    font-size: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.form-wrapper button {
+    display: flex;
+    width: 100%;
+    height: 30px;
+    margin-top: 30px;
+    font-size: 15px;
+    border: 1px solid white;
+    color: #000000;
+    transition: .2s ease-in-out;
+    justify-content: center;
+    align-items: center;
+}
+.form-wrapper button:hover{
+    cursor: pointer;
+    background-color: white;
+    transform: scale(1.02);
+    color:#000;
+}
+.register-banner {
+    height: 100%;
+    width: 100%;
+    background-color: #343a40;
+    display: flex;
+    justify-content: center;
+}
+.register-banner img {
+    height: 70px;
+    margin-right: 20px;
+}
+.register .title {
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 25px;
+    
+}
+.register .title.-top{
+    margin-top: 20px;
+}
+.register span {
+    color: #b93a35;
+    font-family: 'Black Ops One', cursive;
+    font-size: 40px;
+    text-shadow: 5px -1px 2px black;
+}
+option {
+    color: #000;
+}
+option:first-child {
+    color: #000000;
+}
+@media screen and (max-width: 920px){
+    .form-wrapper{
+        max-width: 750px;
+    }
+}
+@media screen and (max-width: 860px) {
+    .form-wrapper{
+        max-width: 550px;
+    }
+}
+@media screen and (max-width: 630px) {
+    .form-wrapper{
+        max-width: 450px;
+    }
+}
+@media screen and (max-width: 530px) {
+    .form-wrapper{
+        max-width: 350px;
+    }
+    .brand {
+        padding-left: none;
+    }
+}
+@media screen and (max-width: 430px) {
+    .form-wrapper{
+        max-width: 300px;
+    }
+}

@@ -1,5 +1,7 @@
+
 html, body {
     height: 100%;
+    background-color: #343a40 !important;
 }
 
 .login {
@@ -12,17 +14,18 @@ html, body {
 .login-form {
     height: 100%;
     width: 50%;
-    background-color: #596f78fa;
+    background-color: #343a40;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 15px;
 }
 
 .login-banner {
     height: 100%;
     width: 50%;
-    background-color: #596f78;
+    background-color: #343a40;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,7 +34,6 @@ html, body {
 .login-banner img {
     height: 170px;
     width: 140px;
-    filter: brightness(0.8);
 }
 .login-banner span {
     color: #b93a35;
@@ -51,7 +53,7 @@ html, body {
     color: #fff;
     margin-top: 20px;
 }
-.form-wrapper button {
+.login .form-wrapper button {
     width: 100%;
     margin-top: 30px;
     border: 1px solid white;

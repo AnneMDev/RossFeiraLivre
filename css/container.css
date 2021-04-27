@@ -1,6 +1,6 @@
 /* global */
 body {
-    background-color: rgb(179, 175, 175);
+    background-color: #343a40;
 }
 
 .container {
@@ -9,6 +9,8 @@ body {
     box-sizing: border-box;
     overflow: hidden;
     align-items: center;
+    justify-content: space-between;
+    display: flex;
 }
 
 .container._1 {
@@ -37,4 +39,7 @@ body {
 
 .container._1 figcaption {
     padding-top: 10px;
+}
+.t {
+    padding-left: 0 !important;
 }

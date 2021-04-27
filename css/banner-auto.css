@@ -1,9 +1,18 @@
 
 .img-slider {
     position: relative;
-    width: 800px;
-    height: 500px;
+    width: 60%;
+    height: 368px;
     margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+aside {
+    margin-left: 50px;
+    position: relative;
+    z-index: 2;
+    transform: translateX(55px);
 }
 .img-slider .slide{
     z-index: 1;
@@ -18,17 +27,20 @@
 }
 .img-slider .slide img{
     z-index: 1;
-    width: 100%;
+    width: 70%;
     border-radius: 5px;
 }
 .img-slider .slide .info {
+    left: 262px;
+    display: flex;
     position: absolute;
-    top: 0;
-    padding: 15px 30px;
+    top: 170px;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .img-slider .slide .info h2 {
-    padding-top: 145px;
-    font-size: 40px;
     color: #b93a35;
     font-family: 'Black Ops One', cursive;
     font-size: 40px;
@@ -40,12 +52,11 @@
 .img-slider .slide .info p {
     color: #251d1d;
     background: #44192938;
-    font-size: 15px;
+    font-size: 20px;
     width: 55%;
     padding: 10px;
     border-radius: 4px;
     margin-top: 10px;
-    margin-left: 155px;
 }
 .img-slider .navigation {
     z-index: 2;
@@ -54,6 +65,7 @@
     bottom: 30px;
     left: 50%;
     transform: translateX(-50%);
+    border: none;
 }
 .img-slider .navigation .btn {
     background: #596f78;
