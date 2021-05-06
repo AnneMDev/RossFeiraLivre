@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Site pessoal para relatório de vendas">
+    <meta name="keywords" content="relatório de vendas web, website de feirante">
+    <meta name="author" content="Anne Michelly">
+    <title>Financeiro | Ross FeiraLivre </title>
+    <link rel="sortcut icon" href="../Assets/shopping-cart (1).png" type="image/gif" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Orbitron:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/main-header.css">
+    <link rel="stylesheet" href="../css/relatory.css">
+    <link rel="stylesheet" href="../css/finance.css">
+    <link rel="stylesheet" href="../plugins/fontawesome/css/all.min.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="brand">
+                <h1 class="title"><span>Ross</span> FeiraLivre</h1>
+            </div>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="../index.html">Home | Produtos</a></li>
+                    <li><a href="#">Estoque</a></li>
+                    <li><a href="../html\relatory.html">Relatórios</a></li>
+                    <li><a href="#contacts">Contato</a></li>
+                    <li><a href="../html/login.html">Log Out</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="dashboard-flex">
+        <sidebar class="menu">
+
+            <div class="content">
+                <ul>
+                    <li class="selected">
+                        <i class="fas fa-hand-holding-usd"></i>
+                        <a href="../html/finance.html">Financeiro</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-chart-line"></i>
+                        <a href="#">Vendedores</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-hands-helping"></i>
+                        <a href="#">Fornecedores</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-users"></i>
+                        <a href="#">Clientes</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-chart-pie"></i>
+                        <a href="#">Concorrentes</a>
+                    </li>
+                </ul>
+            </div>
+        </sidebar>
+        <main>
+            <header>
+                <h1>Relatório Financeiro</h1>
+                <a href="../html/relatory.html"><i class="fas fa-times"></i></a>
+            </header>
+
+            <div class="main-content">
+
+                <div class="card positive">
+                    <h2>Receitas</h2>
+                    <p>R$ 200,00</p>
+                </div>
+                <div class="card negative">
+                    <h2>Despesas</h2>
+                    <p>- R$ 50,00</p>
+                </div>
+                <div class="card total">
+                    <h2>Total</h2>
+                    <p>R$ 150,00</p>
+                </div>
+
+            </div>
+            <div class="main-table">
+                <div class="title-table">
+                    <h2>Movimentações</h2>
+                </div>
+               
+                <table id="table">
+                    <thead>
+                        <tr>
+                            <th>Descrição</th>
+                            <th>Valor</th>
+                            <th>Data</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="description">Imposto</td>
+                            <td class="expense">-R$ 15,00</td>
+                            <td>02/04/2021</td>
+                            <td class="date"></td>
+                        </tr>
+                        <tr>
+                            <td class="description">Vendas</td>
+                            <td class="income">R$ 150,00</td>
+                            <td class="date">02/04/2021</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

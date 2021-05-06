@@ -1,0 +1,104 @@
+.content {
+    margin-top: 66px;
+}
+.dashboard-flex header {
+    justify-content: space-between;
+}
+.dashboard-flex h1 {
+    font-size: 30px;
+}
+li.selected {
+    border-left: 3px solid #b93a35;
+    background-color: #d8b5b56b;
+}
+.main-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #b93a35;
+}
+.main-content .card {
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 200px;
+    margin: 10px;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none;
+    border-radius: .25rem;
+    box-shadow: 5px 5px 5px #1818186e;
+}
+.main-content .card h2{
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 10px;
+}
+.main-content .card p{
+    font-weight: 600;
+}
+.card.positive{
+    color: rgb(56, 184, 17);
+    background-color: #bee0b3;
+}
+.card.negative{
+    color: rgb(185, 27, 15);
+    background-color: #e0b6b3;
+}
+.card.total {
+    background-color: rgb(56, 184, 17);
+    color: #fff;
+}
+.main-table {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title-table {
+    margin: 20px;
+    font-size: 25px;
+    font-family: 'Orbitron';
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+.main-table #table{
+    width: 80%;
+    border-spacing: 0 0.5rem;
+    border-collapse: separate;
+    
+}
+table th {
+    background-color: #adabab;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+table td {
+    background-color: rgba(255, 255, 255, 0.63);
+    padding: 5px;
+}
+
+td.income{
+    color: rgb(12, 95, 5);
+}
+td.expense{
+    color: rgb(255, 0, 0);
+}
+table tr:hover{
+    background-color: rgb(255, 255, 255);
+}

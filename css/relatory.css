@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    height: 100vw;
+    background-color: #dadada !important;
+}
+.dashboard-flex {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.dashboard-flex header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    height: 67px;
+    background-color: #fff;
+    padding: 0 30px;
+    border-bottom: 1px solid black;
+}
+sidebar {
+    display: block;
+    height: 100%;
+    width: 300px;
+    background-color: #ffffff;
+    border-right: 1px solid black;
+}
+sidebar.menu .title-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+sidebar.menu ul {
+    padding: 0;
+}
+sidebar.menu ul:last-child {
+    border-bottom: 1px solid black;
+}
+sidebar.menu li {
+    display: flex;
+    padding: 20px;
+    font-size: 22px;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid black;
+}
+sidebar.menu li a{
+    text-decoration: none;
+    color: #000;
+}
+sidebar.menu h2 {
+    font-family: 'Orbitron';
+    display: flex;
+    padding-left: 25px;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: baseline;
+    align-content: center;
+    padding: 10px;
+}
+sidebar.menu .title-menu a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+}
+
+main {
+    display: block;
+    height: 100%;
+    width: calc(100% - 300px);
+    overflow: auto;
+}
+main a {
+    font-size: 20px;
+    color: #000;
+}
+main a:hover{
+    color: red;
+}
